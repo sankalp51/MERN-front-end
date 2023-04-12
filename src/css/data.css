@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #A5D7E8;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  
+}
+
+.data-item {
+  margin-top: 2rem;
+  margin-left: 0.5rem;
+  padding: 0.5rem;
+  border: 2px solid #19376D;
+  border-radius: 7px;
+  background-color: white;
+}
+
+.item-heading{
+    background: white;
+}
+.item-info{
+    background: white;
+    margin-top: 0.5rem;
+}
+#delete-btn {
+  margin-top: 0.5rem;
+  background-color: red;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}

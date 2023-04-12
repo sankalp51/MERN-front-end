@@ -1,0 +1,10 @@
+.main-container {
+  text-align: center;
+  font-family: "Schibsted Grotesk", sans-serif;
+}
+
+.main-header{
+    padding: 2rem;
+    background-color: #0B2447;
+    color: aliceblue;
+}
